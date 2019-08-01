@@ -6,31 +6,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
-<body class="container-fluid bg">
+<body class="container-fluid bg" style="background: url(images/wood_pattern_@2x.png)">
 
-    <nav id=top class="navbar navbar-expand-md navbar-light bg-light row col-lg-12">
-        <h1 class="navbar-brand offset-lg-2 col-lg-2 bg-info">Kevin Cowan</h1>
+    <nav id=top class="navbar navbar-expand-md navbar-light bg-light fixed-top row col-lg-12 mb-0 ml-0 mr-0 pb-0 pt-0" style="height: 80px">
+        <h1 class="navbar-brand offset-lg-2 col-lg-2 bg-info text-white text-center mb-0 h-100 pt-4">Kevin Cowan</h1>
         <div class="collapse navbar-collapse">
-            <ul class="navbar-nav offset-lg-3 col-lg-4">
-                <li class="nav-item">
+            <ul class="navbar-nav offset-lg-6 col-lg-2">
+                <li class="nav-item pr-2 pl-2 border-right border-secondary">
                     <a href="index.html" class="nav-link">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item pr-2 pl-2 border-right border-secondary">
                     <a href="portfolio.html" class="nav-link">Portfolio</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item pr-2 pl-2">
                     <a href="contact.html" class="nav-link">Contact</a>
                 </li>
              </ul>
         </div>
     </nav>
     
-    <div id=bio class="row offset-lg-2 col-lg-8">
-        <h2 id=aboutme class="col-lg-12">About Me</h2>
-        <div id=me class="col-lg-3">
+    <div id=bio class="bg-light row offset-lg-2 col-lg-8 border border-light" style="margin-top: 115px">
+        <h2 id=aboutme class="col-lg-12 text-info border-bottom border-secondary mt-3 pb-3">About Me</h2>
+        <div id=me class="col-lg-3 mt-5">
         <img src="images/me.jpg" height= 200px width=300px/>
         </div>
-        <p id=text class="offset-lg-1 col-lg-7">
+        <p id=text class="offset-lg-1 col-lg-7 mt-3">
             My name is Kevin Cowan and I am an aspiring Web Developer! I'm self 
         taught and started learning on my own at the end of 2018. I am currently enrolled 
         in a full stack web development boot camp through the University of Texas.
@@ -43,7 +43,7 @@
         a movie nerd and love watching Marvel movies or anything made by Martin Scorsese! 
         </p>
 
-        <p id=text2 class="offset-lg-1 col-lg-11">
+        <p id=text2 class="offset-lg-1 col-lg-11 ml-0">
             I have lived in Austin since 2016 but I actually grew up in Derry New 
         Hampshire, which is about 45 minutes north of Boston. As much as I miss Skiing on
         the White Mountains, Austin has been a great home for the past few years! I would 
@@ -53,12 +53,8 @@
         </p>
     </div>
 
-    <div id=footer class="row">
-        <p id=copyright class="offset-lg-5 col-lg-2">Copyright ©</p>
+    <div id=footer class="row bg-secondary fixed-bottom border-top-2 border-info">
+        <p id=copyright class="offset-lg-6 col-lg-2 text-white">Copyright ©</p>
     </div>
 </body>
-
-
-
-
 </html>

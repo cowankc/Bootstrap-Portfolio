@@ -6,19 +6,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
-<body class="container-fluid">
+<body class="container-fluid bg" style="background: url(images/wood_pattern_@2x.png)">
 
-    <div id=top class="row col-lg-12">
-        <h1 class="offset-lg-2 col-lg-2">Kevin Cowan</h1>
-        
-        <div id=navbar class="offset-lg-3 col-lg-4">
-            <h2>
-                <a href="index.html" class=link>About</a>
-                <a href="portfolio.html" class=link>Portfolio</a>
-                <a href="contact.html" class=link>Contact</a>
-            </h2>
+    <nav id=top class="navbar navbar-expand-md navbar-light bg-light fixed-top row col-lg-12 mb-0 ml-0 mr-0 pb-0 pt-0" style="height: 80px">
+        <h1 class="navbar-brand offset-lg-2 col-lg-2 bg-info text-white text-center mb-0 h-100 pt-4">Kevin Cowan</h1>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav offset-lg-6 col-lg-2">
+                <li class="nav-item pr-2 pl-2 border-right border-secondary">
+                    <a href="index.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item pr-2 pl-2 border-right border-secondary">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item pr-2 pl-2">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+             </ul>
         </div>
-    </div>
+    </nav>
     
     <div id=projectmenu class="row offset-lg-2 col-lg-8">
         <h2 id=portfolio class="col-lg-12">Portfolio</h2>
@@ -30,9 +35,8 @@
     </div>
 
 
-    <div id=footer class="row">
-        <p id=copyright class="offset-lg-5 col-lg-2">Copyright ©</p>
+    <div id=footer class="row bg-secondary fixed-bottom border-top-2 border-info">
+        <p id=copyright class="offset-lg-6 col-lg-2 text-white">Copyright ©</p>
     </div>
 </body>
-
 </html>
