@@ -4,21 +4,25 @@
     <title>Kevin Cowan</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href= "assets/css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body class="container-fluid bg">
 
     <nav id=top 
     class="navbar navbar-expand-md navbar-light bg-light fixed-top
-     row col-sm-12 col-xs-12 col-md-12 col-lg-12 
+     row col-12 col-sm-12 col-md-12 col-lg-12 
      mb-0 ml-0 mr-0 pb-0 pt-0 border-bottom border-secondary">
         
      <h1 class="navbar-brand 
-        col-4 offset-sm-1 col-sm-4 offset-md-1 col-md-4 offset-lg-2 col-lg-2 
-        bg-info text-white text-center font-weight-bold mb-0 h-100 pt-3" >Kevin Cowan</h1>
+        col-8 col-sm-6 offset-md-1 col-md-4 offset-lg-2 col-lg-2 
+        bg-info text-white text-center font-weight-bold mb-0 h-100 pt-3 pl-2" >Kevin Cowan</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navtoggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navtoggler">
            
-            <ul class="navbar-nav offset-5 col-3 offset-sm-4 col-sm-3 offset-md-4 col-md-1 offset-lg-6 col-lg-2">
+            <ul class="navbar-nav col-8 offset-sm-6 col-sm-6 offset-md-3 col-md-4 offset-lg-6 col-lg-2">
                 <li class="nav-item pr-2 pl-2 border-right border-secondary">
                     <a href="index.html" class="nav-link">About</a>
                 </li>
@@ -31,7 +35,7 @@
              </ul>
         </div>
     </nav>
-    
+      
     <div id=projectmenu class="bg-light row offset-lg-2 col-lg-8 border border-light" style="margin-top: 115px">
         <h2 id=portfolio class="col-lg-12 text-info border-bottom border-secondary mt-3 pb-3">Portfolio</h2>
         <div id=hangmanpic class="offset-lg-1 col-lg-3" style="height:50px; background: url(images/placeholder.jpg)">Hangman</div>
@@ -41,8 +45,9 @@
         <div id=rpspic class="offset-lg-1 col-lg-3 offset-lg-8" style="background: url(images/placeholder.jpg)">Rock Paper Scissors</div>
     </div>
 
-    <div id=footer class="row bg-secondary fixed-bottom border-top-2 border-info">
-        <p id=copyright class="offset-lg-6 col-lg-2 text-white">Copyright ©</p>
+    <div id=footer class="row bg-secondary fixed-bottom">
+        <div class="col-lg-12 bg-info" style="height: 8px"> </div>
+        <p id=copyright class="col-12 col-sm-12 col-md-12 offset-lg-5 col-lg-2 text-center text-white">Copyright ©</p>
     </div>
 </body>
 </html>
