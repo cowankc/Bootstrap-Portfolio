@@ -2,16 +2,24 @@
 <head>
 
     <title>Kevin Cowan</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href= "assets/css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
-<body class="container-fluid bg" style="background: url(images/wood_pattern_@2x.png)">
+<body class="container-fluid bg">
 
-    <nav id=top class="navbar navbar-expand-md navbar-light bg-light fixed-top row col-lg-12 mb-0 ml-0 mr-0 pb-0 pt-0" style="height: 80px">
-        <h1 class="navbar-brand offset-lg-2 col-lg-2 bg-info text-white text-center mb-0 h-100 pt-4">Kevin Cowan</h1>
+    <nav id=top 
+    class="navbar navbar-expand-md navbar-light bg-light fixed-top
+     row col-sm-12 col-xs-12 col-md-12 col-lg-12 
+     mb-0 ml-0 mr-0 pb-0 pt-0 border-bottom border-secondary">
+        
+     <h1 class="navbar-brand 
+        col-4 offset-sm-1 col-sm-4 offset-md-1 col-md-4 offset-lg-2 col-lg-2 
+        bg-info text-white text-center font-weight-bold mb-0 h-100 pt-3" >Kevin Cowan</h1>
+        
         <div class="collapse navbar-collapse">
-            <ul class="navbar-nav offset-lg-6 col-lg-2">
+           
+            <ul class="navbar-nav offset-5 col-3 offset-sm-4 col-sm-3 offset-md-4 col-md-1 offset-lg-6 col-lg-2">
                 <li class="nav-item pr-2 pl-2 border-right border-secondary">
                     <a href="index.html" class="nav-link">About</a>
                 </li>
@@ -25,36 +33,43 @@
         </div>
     </nav>
     
-    <div id=bio class="bg-light row offset-lg-2 col-lg-8 border border-light" style="margin-top: 115px">
-        <h2 id=aboutme class="col-lg-12 text-info border-bottom border-secondary mt-3 pb-3">About Me</h2>
-        <div id=me class="col-lg-3 mt-4">
-        <img src="images/me.jpg" height= 200px width=300px/>
+    <div id=bio class="container col-12 col-sm-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 
+    border border-secondary bg-light ">
+        <div class="row">
+             <h2 id=aboutme class="col-lg-11
+            text-info border-bottom border-secondary mt-3 ml-5 pb-3 font-weight-bold">About Me</h2>
+        <div class="row">
+            <div class="col-12 col-md-9 col-md-6 col-lg-3 mt-4 ml-4 mr-2">
+            <img id=me src="assets/images/me.jpg" height= 200px width=300px/>
+            </div>
+            <p id=text class="col-sm-12 offset-md-1 col-md-11 col-lg-8 mt-3 ml-5 pr-5">
+                My name is Kevin Cowan and I am an aspiring Web Developer! I'm self 
+            taught and started learning on my own at the end of 2018. I am currently enrolled 
+            in a full stack web development boot camp through the University of Texas.
+            I enjoy web development because I get to create projects and problem solve. I also enjoy 
+            the feeling of accomplishment I get after writing my own code and seeing it 
+            work perfectly, or fixing code that needed to be debugged and seeing it work
+            correctly. Besides practicing my coding skills I also like to play video games. 
+            I usually play on consoles, either PS4 or the Switch, but will also play some PC 
+            games occasionally (I always find my way back to playing Minecraft). I am also 
+            a movie nerd and love watching Marvel movies or anything made by Martin Scorsese! 
+            </p>
         </div>
-        <p id=text class="offset-lg-1 col-lg-8 mt-3">
-            My name is Kevin Cowan and I am an aspiring Web Developer! I'm self 
-        taught and started learning on my own at the end of 2018. I am currently enrolled 
-        in a full stack web development boot camp through the University of Texas.
-         I enjoy web development because I get to create projects and problem solve. I also enjoy 
-        the feeling of accomplishment I get after writing my own code and seeing it 
-        work perfectly, or fixing code that needed to be debugged and seeing it work
-        correctly. Besides practicing my coding skills I also like to play video games. 
-        I usually play on consoles, either PS4 or the Switch, but will also play some PC 
-        games occasionally (I always find my way back to playing Minecraft). I am also 
-        a movie nerd and love watching Marvel movies or anything made by Martin Scorsese! 
-        </p>
-
-        <p id=text2 class="col-lg-12 ml-0">
-            I have lived in Austin since 2016 but I actually grew up in Derry New 
-        Hampshire, which is about 45 minutes north of Boston. As much as I miss Skiing on
-        the White Mountains, Austin has been a great home for the past few years! I would 
-        say the best part about living here is the laid back feeling of the city and how 
-        friendly the people are. Breakfast tacos are also a big plus, not many offerings in 
-        the taco game up North. 
-        </p>
+        <div class="row">
+            <p id=text2 class="col 10 col-sm-12 offset-md-1 col-md-11 col-lg-11 ml-5 mb-5">
+                I have lived in Austin since 2016 but I actually grew up in Derry New 
+            Hampshire, which is about 45 minutes north of Boston. As much as I miss Skiing on
+            the White Mountains, Austin has been a great home for the past few years! I would 
+            say the best part about living here is the laid back feeling of the city and how 
+            friendly the people are. Breakfast tacos are also a big plus, not many offerings in 
+            the taco game up North. 
+            </p>
+        </div>
     </div>
 
-    <div id=footer class="row bg-secondary fixed-bottom border-top-2 border-info">
-        <p id=copyright class="offset-lg-6 col-lg-2 text-white">Copyright ©</p>
+    <div id=footer class="row bg-secondary fixed-bottom">
+        <div class="col-lg-12 bg-info" style="height: 8px"> </div>
+        <p id=copyright class="col-12 col-sm-12 col-md-12 offset-lg-5 col-lg-2 text-center text-white">Copyright ©</p>
     </div>
 </body>
 </html>
